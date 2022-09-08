@@ -1,9 +1,8 @@
 #include <stdio.h>
-
 /**
- * Simple program that uses print function
+ * Main - Entry point
  *
- * Return: a string
+ * Return: always success
  */
 int main(void)
 {
