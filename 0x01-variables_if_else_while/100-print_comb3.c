@@ -4,8 +4,6 @@
 *
 * Description: Print
 *
-* Return:0
-*
 *
 */
 
