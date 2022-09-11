@@ -1,8 +1,10 @@
 #include <stdio.h>
 /*
+* main - print if the number is postive, zero, or negative
+*
 * Description: Print
 *
-* main: entry point
+* Return:0
 *
 *
 */
@@ -25,10 +27,11 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
-			}++n2;
+			}
+			++n2;
 		}
 		++n1;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
