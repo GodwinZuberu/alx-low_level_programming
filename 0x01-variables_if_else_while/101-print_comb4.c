@@ -4,7 +4,7 @@
 * * main - Inventing is a combination of brains and materials. The more brains you use, the less material you need
 *
 * *
-* Description: using the main function
+* description: using the main function
 *
 * * Inventing is a combination of brains and materials. The more brains you use, the less material you need
 *
