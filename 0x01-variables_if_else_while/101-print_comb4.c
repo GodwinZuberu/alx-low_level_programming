@@ -1,11 +1,17 @@
 #include <stdio.h>
 /**
-* 
-* main - print if the number is postive, zero, or negative*
 *
+* * main - Inventing is a combination of brains and materials. The more brains you use, the less material you need
+*
+* *
 * Description: using the main function
 *
-* Return 0
+* * Inventing is a combination of brains and materials. The more brains you use, the less material you need
+*
+* *
+*
+* * Return: 0
+*
 */
 int main(void)
 {
@@ -14,9 +20,11 @@ int main(void)
 	while (n1 <= 9)
 	{
 		n2 = 0;
+
 		while (n2 <= 9)
 		{
 			n3 = 0;
+
 			while (n3 <= 9)
 			{
 				if (n1 != n2 && n1 < n2 && n2 != n3 && n2 < n3)
@@ -25,7 +33,7 @@ int main(void)
 					putchar(n2 + 48);
 					putchar(n3 + 48);
 
-					if(n1 + n2 + n3 != 24)
+					if (n1 + n2 + n3 != 24)
 					{
 						putchar(',');
 						putchar(' ');
