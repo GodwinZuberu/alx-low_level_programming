@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
-*
 * main - Inventing is a combination of brains and materials. The more brains you use, the less material you need
 *
 * description: using the main function
-*
 * Inventing is a combination of brains and materials. The more brains you use, the less material you need
 *
 * Return: 0
