@@ -2,8 +2,7 @@
 /**
 * main - entry point
 *
-* description - a simple program
-*
+* description: a simple program
 *
 * Return 0
 */
