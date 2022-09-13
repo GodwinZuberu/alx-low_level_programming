@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
-*
 * main - entry point
 *
 * description - a simple program
@@ -11,6 +10,7 @@
 int main(void)
 {
 	int n1 = 0, n2;
+
 	while (n1 < 98)
 	{
 		n2 = n1;
