@@ -2,10 +2,11 @@
 /**
 * main - entry point of the code
 *
-* description : a little code 
+* description - a little code 
 * Return: Always 0.
 */
 void jack_bauer(void)
+
 {
 	int a;
 	int b;
