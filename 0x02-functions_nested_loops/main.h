@@ -10,7 +10,7 @@ void print_alphabet_x10(void);
 
 void _islower(int c);
 
-void isalpha(int c);
+void _isalpha(int c);
 
 void print_sign(int n);
 

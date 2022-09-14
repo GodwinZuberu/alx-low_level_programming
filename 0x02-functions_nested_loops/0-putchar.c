@@ -12,11 +12,11 @@ int main(void)
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
-	_putcahr('t');
+	_putchar('t');
 	_putchar('c');
 	_putchar('h');
 	_putchar('a');
-	_putcahr('r');
+	_putchar('r');
 	_putchar('\');
 
 	return (0);
