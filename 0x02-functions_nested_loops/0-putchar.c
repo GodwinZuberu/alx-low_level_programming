@@ -1,9 +1,8 @@
 #include "main.h"
-
 /*
-* main - entrty point
+* main : entrty point
 *
-* description: Write a program that prints _putchar, followed by a new line
+* description - Write a program that prints _putchar, followed by a new line
 *
 * Return : 0
 */
