@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdio.h>
 /**
-* main -entrt point of the code 
+* main -entrt point of the code
 * description - Nature made the natural numbers; All else is the work of women
 * Return: Always 0.
 */
