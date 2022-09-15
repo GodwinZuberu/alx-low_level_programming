@@ -4,7 +4,9 @@
 /**
 * main - entry point
 *
-* description - Write a function that adds two integers and returns the result.
+* add - prints addition of two numbers
+* @i: holds the value of i
+* @k: holds the value of k
 * Return: Always 0.
 */
 
