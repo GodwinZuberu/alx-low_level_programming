@@ -1,7 +1,7 @@
 #include "main.h"
 /*
 * main - entry point
-* description: The World looks like a multiplication-table, or a mathematical equation, which, turn it how you will, balances itself
+* description - The World looks like a multiplication-table,
 *
 * Return: Always 0.
 */
