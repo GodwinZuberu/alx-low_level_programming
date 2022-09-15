@@ -1,7 +1,7 @@
 #include "main.h"
 /*
 * main - entry point
-* description -Write a function that prints the n times table, starting with 0.
+* description: The World looks like a multiplication-table, or a mathematical equation, which, turn it how you will, balances itself
 *
 * Return: Always 0.
 */
