@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
 * main  - entry point of the code 
 * description: Write a program that prints the first 50 Fibonacci number
