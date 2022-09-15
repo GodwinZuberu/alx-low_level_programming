@@ -20,5 +20,5 @@ int main(void)
 		c++;
 	}
 	printf("%i\n", sum);
-	retun (0);
+	return (0);
 }
