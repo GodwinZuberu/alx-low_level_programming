@@ -3,7 +3,6 @@
 
 /**
 *more_numbers - prints numbers to 14
-*
 *Return : returns nothing
 */
 
