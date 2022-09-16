@@ -7,7 +7,7 @@
 *Return: return nothing
 */
 
-void print_most_numbers(coid)
+void print_most_numbers(void)
 {
 	int n;
 
