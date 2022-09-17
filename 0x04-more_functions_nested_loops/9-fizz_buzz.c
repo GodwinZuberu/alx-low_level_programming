@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*main - program that prints either number or fizz or fizzbuzz
+*main - prints the numbers from 1 to 100, followed by a new line 
 *
-*Returns 0
-*
+*Return: Always 0 (Success) 
 */
 
 int main(void)
