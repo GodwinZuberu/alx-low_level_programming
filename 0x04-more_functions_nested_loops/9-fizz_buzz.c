@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-/*
+/**
 *main - program that prints either number or fizz or fizzbuzz
 *
 *Returns 0
@@ -36,5 +36,5 @@ int main(void)
 	}
 	printf("\n"); 
 
-	return (0)
+	return (0);
 }
