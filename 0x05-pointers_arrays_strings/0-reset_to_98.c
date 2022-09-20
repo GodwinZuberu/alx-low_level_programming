@@ -3,6 +3,7 @@
 /**
 * main - check the code
 * @n: Parameter
+* description - Don't swap horses in crossing a stream
 * Return: nothing
 */
 
