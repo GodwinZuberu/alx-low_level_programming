@@ -1,20 +1,31 @@
 #include "main.h"
+/**
+ *is_prime_number - returns the 1 if n is prime
+ *@n: number to be checked
+ *
+ *Return: 1 if n is prime, 0 otherwise
+ */
+int is_prime_number(int n)
+{
+	int start = n / 2;
 
-int is_divisible(int num, int div);
+	if (n  <= 1)
+		return (0);
+	return (is_prime(n, start));
+}
 
 /**
- * check prime 0> it check prime number
- *@n : number to check
- *@i: iterator
- *Return: a 1 or 0
+ * is_prime - returns the 1 if n is prime
+ * @n: number to be checked
+ * @start: number to start checking from
+ *
+ * Return: 1 if n is prime, 0 otherwise
  */
-int is_divisible(int num, int div)
+int is_prime(int n, int start)
 {
-	if (num % div == 0)
-		return (0);
-
-	if (div == num / 2)
+	if (start <= 1)
 		return (1);
-
-	return (is_divisible(num, div + 1));
+	else if (n % start == 0)
+		return (0);
+	return (is_prime(n, start - 1));
 }
