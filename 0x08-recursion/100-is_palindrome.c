@@ -8,7 +8,7 @@ int _lenght(char *s)
 {
 	if (*s == '\0')
 		return (0);
-	return (1 + _lenght(s+1));
+	return (1 + _lenght(s + 1));
 }
 /**
  * checkp - checks the string
@@ -25,7 +25,7 @@ int checkp(int i, int lg, char *s)
 		{
 			return (checkp(i + 1, lg - 1, s));
 		}
-		else if (s[i] !=s[lg])
+		else if (s[i] != s[lg])
 		{
 			return (0);
 		}
