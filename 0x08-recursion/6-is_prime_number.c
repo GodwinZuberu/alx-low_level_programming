@@ -23,6 +23,6 @@ int check_prime(int n, int i)
 	if (n % i == 0 && i > l)
 		return (0);
 	if ((n / i) < i)
-		print(l);
+		return (l);
 	return (check_prime(n, i + l));
 }
