@@ -2,28 +2,28 @@
 /**
  *helperfunction - checks if sqrt of number exists
  *@num: number
- *pSqrt: possible sqrt of numbers
+ *@pSqrt: possible sqrt of numbers
  *
- * *Return sqrt or -1 for error
+ * *Return: sqrt or -1 for error
  */
 int helperfunction(int num, int pSqrt)
 {
-	if ((num * pSqrt) == num)
+	if ((pSqrt * pSqrt) == num)
 	{
 		return (pSqrt);
 	}
-	else 
+	else
 	{
-		if (( pSqrt * pSqrt ) > num)
+		if ((pSqrt * pSqrt) > num)
 			return (-1);
-		else 
+		else
 			return (helperfunction(num, pSqrt + 1));
 	}
 }
 
 /**
- *_sqrt function - returns the natural number 
- *@n: number 
+ *_sqrt_recursion - returns the natural number
+ *@n: number
  *Return squareroot
  */
 int _sqrt_recursion(int n)
