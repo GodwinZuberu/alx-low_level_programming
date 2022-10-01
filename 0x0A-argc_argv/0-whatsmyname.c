@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main -> this is a fucntion to print its name
+ * main -> this is a function to print its name
  * @argc: argc parameter
  * @argv: an array of the command listed
  * Return : 0 for success
