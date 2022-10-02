@@ -3,23 +3,33 @@
 #include <ctype.h>
 #include <string.h>
 /**
- * check_num - check - string there are digit
- * @str: array str
+ * main -> this is a function to print its name
+ * @argc: argc parameter
+ * @argv: an array of a command listed
  *
  * Return: Always 0 (Success)
  */
-int check_num(char *str)
+int main(int argc, char *argv[])
 {
-	unsigned int count;
+	int result = 0, num, i, j, k;
 
-	count = 0;
-	while (count < strlen(str))
+	for (i = 1; i < argc; i++)
 	{
-		if (!isdigit(str[count]))
+		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			return (0);
+			if (argv[i][j] > '9' || argv[i][j] < '0')
+			{
+				printf("%s\n", "Error");
+				return (1);
+			}
 		}
-		count++
 	}
-	return (1);
+
+	for  (k = 0; k < argc; k++)
+	{
+		num = atoi(atoi(argv[k]));
+		result += num;
+	}
+	printf("%d\n", result);
+	return (0);
 }
