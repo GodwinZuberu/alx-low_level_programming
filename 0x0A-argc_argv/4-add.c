@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
 /**
  * main -> this is a function to print its name
  * @argc: argc parameter
@@ -27,7 +25,7 @@ int main(int argc, char *argv[])
 
 	for  (k = 0; k < argc; k++)
 	{
-		num = atoi(atoi(argv[k]));
+		num = atoi(argv[k]);
 		result += num;
 	}
 	printf("%d\n", result);
