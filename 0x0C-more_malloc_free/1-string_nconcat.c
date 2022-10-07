@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- *string_nconcat: the name of the function
+ * string_nconcat - the name of the function
  * @s1: the first string
  * @s2: the second string to concat
  * @n: the value
