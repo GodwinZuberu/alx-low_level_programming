@@ -31,4 +31,7 @@ dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
 
 #endif /*DOG_H*/
+<<<<<<< HEAD
 >>>>>>> b93e1e9c55528b511036c77961a0d75763e37721
+=======
+>>>>>>> 7a8b4e6927e96e65ad529f90aaeffb599c9e6307
