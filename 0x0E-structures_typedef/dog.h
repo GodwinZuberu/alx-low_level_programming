@@ -4,13 +4,31 @@
  * struct dog - Struct dog
  * @name: name
  * @age: age
+<<<<<<< HEAD
  * @owner: owner
  * Description: This struct is for dog
  */
 
 struct dog 
+=======
+ * @owner:  owner
+ * Description: This struct is for dog
+ */
+struct dog
+>>>>>>> b93e1e9c55528b511036c77961a0d75763e37721
 {
 	char *name;
 	float age;
 	char *owner;
 };
+<<<<<<< HEAD
+=======
+
+typedef struct dog dog_t;
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+dog_t *new_dog(char *name, float age, char *owner);
+void free_dog(dog_t *d);
+
+#endif /*DOG_H*/
+>>>>>>> b93e1e9c55528b511036c77961a0d75763e37721
