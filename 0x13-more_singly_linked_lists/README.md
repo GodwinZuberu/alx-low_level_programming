@@ -1,3 +1,1 @@
-This is a readme file  for More singly linked lists
-
- By: Julien Barbier
+This is introduction to C course programming 
