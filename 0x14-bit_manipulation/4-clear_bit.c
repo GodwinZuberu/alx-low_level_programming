@@ -18,5 +18,5 @@ int clear_bit(unsigned long int *n, unsigned int index)
 	if (*n & m)
 		*n ^= m;
 
-	retunr (1);
+	return (1);
 }
